@@ -1,0 +1,306 @@
+<html>
+
+<head>
+    <script src="https://kit.fontawesome.com/6e3c1da8e7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="primeVideo.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="container-fluid text-center background">
+        <div class="row">
+
+            <!-- NAVBAR -->
+
+            <div class="col-12 d-flex flex-row pt-2 d-lg-none d-block">
+                <div class="dropdown">
+                    <a class="dropdown-button text-white p-1 order-1 order-md-2" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Menu <i class="fa-solid fa-chevron-down menu-icons"></i>
+                    </a>
+                    <div class="dropdown-menu dropdown-bg " aria-labelledby="dropdownMenu2">
+                        <button class="dropdown-item text-secondary" type="button">
+                            <i class="fa-solid fa-house pr-2 menu-icons"></i>
+                            Home</button>
+                        <button class="dropdown-item text-secondary" type="button">
+                            <i class="fa-solid fa-bag-shopping pr-3 menu-icons"></i>Store</button>
+                        <button class="dropdown-item text-secondary" type="button">
+                            <i class="fa-solid fa-tv pr-2 menu-icons"></i>
+                            Live TV</button>
+                        <button class="dropdown-item text-secondary" type="button">
+                            <i class="fa-solid fa-list pr-2 menu-icons"></i>
+                            Categories</button>
+                    </div>
+                </div>
+                <h1 class="heading pt-1 mr-1 ml-auto order-2 order-md-1">prime video</h1>
+
+                <i class="fa-solid fa-magnifying-glass magnifier pt-1 ml-auto order-3 order-md-3"></i>
+
+                <div class="dropdown ml-auto mr-2 order-4 order-md-4">
+                    <button class="dropdown-button text-white " type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="text-center pt-1  mb-2 fa-solid fa-user-large profile-icon "></i>
+                    </button>
+                    <div class="dropdown-menu dropdown-bg " aria-labelledby="dropdownMenu2">
+                        <button class="dropdown-item text-gray" type="button">Subscribe now</button>
+                        <button class="dropdown-item text-secondary" type="button">Sign in</button>
+                        <button class="dropdown-item text-secondary" type="button">Help</button>
+                        <button class="dropdown-item text-secondary" type="button">Watch Anywhere</button>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="col-12 d-none d-lg-block">
+                <nav class="navbar navbar-expand-md navbar-dark bg-transparent">
+                    <a class="navbar-brand heading ml-5" href="#">prime video</a>
+                    <div class="collapse navbar-collapse d-flex flex-row justify-content-center" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle dropdown-button" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Home
+                                </a>
+                                <div class="dropdown-menu bg-dark dropdown-bg" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item text-secondary dropdown-bg" href="#">All</a>
+                                    <a class="dropdown-item text-secondary dropdown-bg" href="#">Movies</a>
+                                    <a class="dropdown-item text-secondary dropdown-bg" href="#">TV shows</a>
+                                </div>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle dropdown-button" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Store
+                                </a>
+                                <div class="dropdown-menu bg-dark dropdown-bg" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item text-secondary dropdown-bg" href="#">All</a>
+                                    <a class="dropdown-item text-secondary dropdown-bg" href="#">Rent</a>
+                                    <a class="dropdown-item text-secondary dropdown-bg" href="#">Channels</a>
+                                </div>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link dropdown-button" href="#">Live TV</a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle dropdown-button" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Categories
+                                </a>
+                                <div class="dropdown-menu bg-dark dropdown-bg" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item text-secondary dropdown-bg" href="#">Action</a>
+                                    <a class="dropdown-item text-secondary dropdown-bg" href="#">Another action</a>
+                                    <a class="dropdown-item text-secondary dropdown-bg" href="#">Something else here</a>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <ul class="navbar-nav ml-4">
+                            <li class="nav-item dropdown mr-3">
+                                <i class="fa-solid fa-magnifying-glass magnifier mt-2"></i>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link dropdown-button" href="#">Subscribe now</a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle dropdown-button" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    EN
+                                </a>
+                                <div class="dropdown-menu bg-dark dropdown-bg" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item text-secondary dropdown-bg" href="#">Action</a>
+                                    <a class="dropdown-item text-secondary dropdown-bg" href="#">Another action</a>
+                                    <a class="dropdown-item text-secondary dropdown-bg" href="#">Something else here</a>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="dropdown">
+                                    <button class="dropdown-button text-white" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="text-center pt-1 fa-solid fa-user-large profile-icon "></i>
+                                    </button>
+                                    <div class="dropdown-menu  bg-dark" aria-labelledby="dropdownMenu2">
+                                        <button class="dropdown-item text-secondary dropdown-bg" type="button">Sign in</button>
+                                        <button class="dropdown-item text-secondary dropdown-bg" type="button">Help</button>
+                                        <button class="dropdown-item text-secondary dropdown-bg" type="button">Watch Anywhere</button>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+            <!-- WELCOME CARD -->
+
+            <div class="col-12 col-lg-6 order-lg-2 pb-5 ">
+                <img src="https://assets.aboutamazon.com/dims4/default/a76863f/2147483647/strip/true/crop/1919x1080+0+0/resize/2480x1396!/format/webp/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2F91%2F16%2F4234e20e4618a6c05682bf9f280c%2F16x9-mzp-ka-r1-kkau-copy.jpg" class="image ">
+            </div>
+
+            <div class="col-12 col-lg-6 order-lg-1 mb-5 pb-5 shadow">
+
+                <h1 class="welcome-heading mt-3">Welcome to Prime Video</h1>
+                <p class="welcome-paragraph mt-3">Join Prime to watch the latest movies, TV shows and award-winning Amazon Originals</p>
+                <button class="btn btn-info join-prime-button mt-3">Sign in to join Prime</button>
+            </div>
+
+            <!-- RENTALS CARD -->
+
+            <div class="col-12 col-lg-6 order-lg-4 pb-5">
+                <img src="https://assets.aboutamazon.com/2d/49/abd3719b41aea4605bb51e4d8d72/subs-pre-order-consent-background-image-cb578173463.jpg" class="image">
+            </div>
+            <div class="col-12 col-lg-6 order-lg-3 mb-5 pb-5">
+
+                <h1 class="welcome-heading mt-3">Movie rentals on Prime Video</h1>
+                <p class="welcome-paragraph mt-3">Early Access to new movies, before digital subscription</p>
+                <button class="btn btn-info join-prime-button mt-3">Rent now</button>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <!-- FAVORITE CHANNELS CARD -->
+
+    <div class="container-fluid mt-3 mb-3">
+        <div class="row">
+            <div class="col-5 p-3 ml-5 order-1 d-md-block d-none">
+                <h1 class="welcome-heading channels mt-3">Your favorite channels all in one place</h1>
+                <p class="welcome-paragraph channels mt-3">With Prime Video Channels, find shows and movies from your favorite channels all in one place.
+                    Enjoy with an add-on subscription to Channels of your choice
+                </p>
+            </div>
+
+            <div class="col-6 order-2 d-md-block d-none">
+                <div class="d-flex flex-row fav-channel-container">
+                    <img src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/LionsgatePlay-426X2946_V1.jpg" class="w-75 m-1">
+                    <img src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/426x294_Discovery.jpg" class="w-75 m-1">
+                    <img src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/426x294_BBC_PLAYER.png" class="w-75 m-1">
+                </div>
+
+                <div class="d-flex flex-row fav-channel-container">
+                    <img src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/426x294_MANORAMAMAX.jpg" class="w-75 m-1">
+                    <img src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/hoichoi-426X2946_V1.jpg" class="w-75 m-1">
+                    <img src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/426x294_Chaupal.png" class="w-75 m-1">
+                </div>
+
+                <div class="d-flex flex-row fav-channel-container">
+                    <img src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/426x294_Anime.jpg" class="w-75 m-1">
+                    <img src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/426x294.png" class="w-75 m-1">
+                    <img src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/426x294_MGMPLUS.png" class="w-75 m-1">
+                </div>
+
+                <div class="d-flex flex-row fav-channel-container">
+                    <img src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/X-site/MLP/Channels/Vrott.png" class="w-75 m-1">
+                    <img src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/Erosnow-426X2948_V1.jpg" class="w-75 m-1">
+                    <img src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/X-site/MLP/Channels/Stingray.png" class="w-75 m-1">
+                </div>
+            </div>
+
+            <div class="col-12 text-center order-1 d-block d-md-none">
+                <h1 class="welcome-heading channels mt-3">Your favorite channels all in one place</h1>
+                <p class="welcome-paragraph channels mt-3">With Prime Video Channels, find shows and movies from your favorite channels all in one place.
+                    Enjoy with an add-on subscription to Channels of your choice
+                </p>
+            </div>
+
+            <div class="col-12 order-2 d-block d-md-none pl-0">
+                <div class="d-flex flex-row m-3">
+                    <img src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/LionsgatePlay-426X2946_V1.jpg" class="w-50 m-1">
+                    <img src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/426x294_Discovery.jpg" class="w-50 m-1">
+
+                </div>
+
+                <div class="d-flex flex-row m-3">
+                    <img src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/426x294_BBC_PLAYER.png" class="w-50 m-1">
+                    <img src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/426x294_MANORAMAMAX.jpg" class="w-50 m-1">
+                </div>
+
+                <div class="d-flex flex-row m-3">
+
+                    <img src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/hoichoi-426X2946_V1.jpg" class="w-50 m-1">
+                    <img src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/426x294_Chaupal.png" class="w-50 m-1">
+                </div>
+
+                <div class="d-flex flex-row m-3">
+                    <img src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/426x294_Anime.jpg" class="w-50 m-1">
+                    <img src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/426x294.png" class="w-50 m-1">
+
+                </div>
+
+                <div class="d-flex flex-row m-3">
+                    <img src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/426x294_MGMPLUS.png" class="w-50 m-1">
+                    <img src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/X-site/MLP/Channels/Vrott.png" class="w-50 m-1">
+                </div>
+
+                <div class="d-flex flex-row m-3">
+
+                    <img src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/Erosnow-426X2948_V1.jpg" class="w-50 m-1">
+                    <img src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/X-site/MLP/Channels/Stingray.png" class="w-50 m-1">
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- FOOTER -->
+
+    <div class="container-fluid bg-dark text-center">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="heading pt-3">
+                    <span class="prime-color">prime</span> video
+                </h1>
+                <div class="d-flex flex-row justify-content-center">
+                    <a class="footer-anchor p-2">Terms and Privacy Notice</a>
+                    <a class="footer-anchor p-2">Send us feedback</a>
+                    <a class="footer-anchor p-2">Help</a>
+                </div>
+                <div class="text-center pb-3 copyright">
+                    <span>
+                        <i class="fa-regular fa-copyright"></i>
+                        1996-2024, Amazon.com, Inc. or its affiliates
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

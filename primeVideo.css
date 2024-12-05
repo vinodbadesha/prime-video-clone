@@ -1,0 +1,106 @@
+.background {
+    background-color: black;
+    background-size: cover;
+
+
+}
+
+.heading {
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.dropdown-button {
+    color: rgb(177, 174, 174);
+    font-size: 15px;
+    background-color: black;
+    border-width: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.dropdown-bg {
+    background-color: black;
+    color: gray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.menu-icons {
+    font-size: 12px;
+}
+
+.magnifier {
+    color: rgb(177, 174, 174);
+    font-size: 20px;
+
+
+}
+
+.profile-icon {
+    height: 30px;
+    width: 30px;
+    font-size: 20px;
+    color: rgb(230, 224, 224);
+    border-radius: 30px;
+    background-color: rgba(45, 118, 157, 0.794);
+
+
+}
+
+.image {
+    width: 100%;
+}
+
+.welcome-heading {
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.welcome-paragraph {
+    color: white;
+    font-size: 13px;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.join-prime-button {
+    font-size: 13px;
+    height: 40px;
+    width: 220px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.channels {
+    color: black;
+}
+
+.bg-gradient {
+    background-image: linear-gradient(to left, #082047, #488694);
+    color: white;
+
+}
+
+.footer-bg {
+    background-color: #1E2B3C;
+}
+
+.prime-color {
+    color: #03B4C8;
+}
+
+.footer-anchor {
+    color: #00AAE2;
+    font-size: 12px;
+}
+
+.copyright {
+    color: gray;
+    font-size: 12px;
+}
+
+.fav-channel-container {
+    width: 20vw;
+}
